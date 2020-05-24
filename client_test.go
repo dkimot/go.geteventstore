@@ -13,8 +13,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/jetbasrawi/go.geteventstore"
-	"github.com/jetbasrawi/go.geteventstore.testfeed"
+	goes "github.com/dkimot/go.geteventstore"
 	. "gopkg.in/check.v1"
 )
 

@@ -2,7 +2,7 @@
 
 
 Getting Started
-To run these example you should have an eventstore server running on the default port http://localhost:2113. 
+To run these example you should have an eventstore server running on the default port http://localhost:2113.
 
 You can download and run an instance of the eventstore on your local development environment or you can use run a server in docker as described below.
 
@@ -10,7 +10,7 @@ You can download and run an instance of the eventstore on your local development
 If you are a docker user you can set up an eventstore server using the included Docker Compose file.
 
 ```
-$ github.com/jetbasrawi/go.geteventstore/examples/docker-compose up
+$ github.com/dkimot/go.geteventstore/examples/docker-compose up
 
 ```
 

@@ -6,7 +6,7 @@ package main
 import (
 	"log"
 
-	"github.com/jetbasrawi/go.geteventstore"
+	goes "github.com/dkimot/go.geteventstore"
 )
 
 // FooEvent is a test event type
