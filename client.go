@@ -146,10 +146,11 @@ func (c *Client) NewStreamReader(streamName string) *StreamReader {
 // that starts reading after the specified version
 func (c *Client) NewVersionedStreamReader(streamName string, version int) *StreamReader {
 	sr := &StreamReader{
-		streamName: streamName,
-		client:     c.copy(),
-		version:    version,
-		pageSize:   20,
+		streamName:  streamName,
+		client:      c.copy(),
+		nextVersion: version + 1,
+		version:     version,
+		pageSize:    20,
 	}
 	sr.LongPoll(-1)
 	return sr
